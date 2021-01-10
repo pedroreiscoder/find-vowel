@@ -2,6 +2,9 @@
 
 namespace FindVowel
 {
+    /// <summary>
+    /// StreamReader customizado para oferecer os métodos GetNext() e HasNext()
+    /// </summary>
     public class FindVowelReader : StreamReader
     {
         public FindVowelReader(Stream stream) : base(stream)

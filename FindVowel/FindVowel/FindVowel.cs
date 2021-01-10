@@ -6,6 +6,10 @@ namespace FindVowel
 {
     public static class FindVowel
     {
+        /// <summary>
+        /// Dada uma stream esse método retorna a primeira vogal
+        /// após uma consoante que não se repete no resto da stream
+        /// </summary>
         public static char? FirstChar(FindVowelReader reader)
         {
             string vowels = "aeiou";
